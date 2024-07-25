@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "react-native-gato-app",
-    "slug": "react-native-gato-app",
+    "name": "Best Game Gato",
+    "slug": "react-native-gato",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/tic-tac-toe.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/tic-tac-toe.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/tic-tac-toe.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nikomalek.reactnativegato"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "03c89aa8-6b47-41b9-ab5c-360fa4be5115"
+      }
+    },
+    "owner": "nikomalek"
   }
 }
